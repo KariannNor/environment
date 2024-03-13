@@ -1,5 +1,5 @@
 {
-  "name": "joker",
+  "name": "joker-karianns",
   "version": "0.1.0",
   "description": "Application that tells jokes",
   "type": "module",
@@ -22,6 +22,8 @@
     "prettier": "^3.2.5"
   },
   "dependencies": {
-    "give-me-a-joke": "^0.5.1"
+    "give-me-a-joke": "^0.5.1",
+    "joker": "^0.9.0",
+    "joker-karianns": "^0.1.0"
   }
 }
