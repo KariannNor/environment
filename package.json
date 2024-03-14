@@ -6,7 +6,8 @@
   "main": "src/index.js",
   "scripts": {
     "test": "node src/js/joker.js",
-    "format": "prettier -w src/js/joker.js"
+    "format": "prettier -w src/js/joker.js",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -19,11 +20,16 @@
   "author": "Kariann Norheim <kariann.norheim@gmail.com>",
   "license": "ISC",
   "devDependencies": {
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.2",
     "prettier": "^3.2.5"
   },
   "dependencies": {
     "give-me-a-joke": "^0.5.1",
     "joker": "^0.9.0",
     "joker-karianns": "^0.1.0"
+  },
+  "lint-staged": {
+    "*.js": "prettier --write"
   }
 }
