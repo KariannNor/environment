@@ -30,6 +30,15 @@
     "joker-karianns": "^0.1.0"
   },
   "lint-staged": {
-    "*.js": "prettier --write"
+    "*.js": [
+      "prettier --write",
+      "eslint --fix"
+    ],
+    "*.html": [
+      "prettier --write"
+    ],
+    "*.scss": [
+      "prettier --write"
+    ]
   }
 }
