@@ -8,4 +8,5 @@ export async function testDadJoke() {
 	return testPasses;
 }
 
+console.log('Intentional Syntax Error');
 testDadJoke();
